@@ -1,0 +1,36 @@
+{
+  "name": "autostrom-client",
+  "version": "1.0.0",
+  "description": "STROMDAO Autostrom ist ein Stromprodukt, welches netzdienlichen Aufladen mit einer Prämie belohnt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/autostrom-client.git"
+  },
+  "bin": {
+    "stromdao.autostrom": "./index.js"    
+  },
+  "keywords": [
+    "autostrom",
+    "emobility",
+    "smarthome",
+    "charger",
+    "netzdienlichkeit"
+  ],
+  "author": "STROMDAO <kontakt@stromdao.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/energychain/autostrom-client/issues"
+  },
+  "homepage": "https://github.com/energychain/autostrom-client#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "stromdao-businessobject": "^0.5.27",
+    "stromdao-cli-helper": "0.0.5",
+    "then-request": "^4.1.0",
+    "vorpal": "^1.12.0"
+  }
+}
